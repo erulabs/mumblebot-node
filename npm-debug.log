@@ -1,0 +1,447 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mumble',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 warn package.json mumblebot@0.0.0 No description
+5 warn package.json mumblebot@0.0.0 No repository field.
+6 warn package.json mumblebot@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'mumble', null ]
+9 verbose cache add name=undefined spec="mumble" args=["mumble",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'mumble',
+10 verbose parsed url   path: 'mumble',
+10 verbose parsed url   href: 'mumble' }
+11 silly lockFile 9a295ab2-mumble mumble
+12 verbose lock mumble C:\Users\eru\AppData\Roaming\npm-cache\9a295ab2-mumble.lock
+13 silly lockFile 9a295ab2-mumble mumble
+14 silly lockFile 9a295ab2-mumble mumble
+15 verbose addNamed [ 'mumble', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile d4eac831-mumble mumble@
+18 verbose lock mumble@ C:\Users\eru\AppData\Roaming\npm-cache\d4eac831-mumble.lock
+19 silly addNameRange { name: 'mumble', range: '*', hasData: false }
+20 verbose url raw mumble
+21 verbose url resolving [ 'https://registry.npmjs.org/', './mumble' ]
+22 verbose url resolved https://registry.npmjs.org/mumble
+23 info trying registry request attempt 1 at 20:15:53
+24 verbose etag "8JYSGJ9AO2065USKNIRUNCI7T"
+25 http GET https://registry.npmjs.org/mumble
+26 http 304 https://registry.npmjs.org/mumble
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Thu, 24 Jul 2014 01:15:53 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Thu, 24 Jul 2014 01:15:53 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"8JYSGJ9AO2065USKNIRUNCI7T"',
+27 silly registry.get     'x-served-by': 'cache-dfw1828-DFW',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1406164553.063663,VS0,VE0',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag mumble from cache
+29 silly addNameRange number 2 { name: 'mumble', range: '*', hasData: true }
+30 silly addNameRange versions [ 'mumble', [ '0.0.1', '0.0.2' ] ]
+31 verbose addNamed [ 'mumble', '0.0.2' ]
+32 verbose addNamed [ '0.0.2', '0.0.2' ]
+33 silly lockFile f9868f03-mumble-0-0-2 mumble@0.0.2
+34 verbose lock mumble@0.0.2 C:\Users\eru\AppData\Roaming\npm-cache\f9868f03-mumble-0-0-2.lock
+35 silly lockFile f9868f03-mumble-0-0-2 mumble@0.0.2
+36 silly lockFile f9868f03-mumble-0-0-2 mumble@0.0.2
+37 silly lockFile d4eac831-mumble mumble@
+38 silly lockFile d4eac831-mumble mumble@
+39 silly resolved [ { name: 'mumble',
+39 silly resolved     description: 'Mumble client library',
+39 silly resolved     version: '0.0.2',
+39 silly resolved     author: { name: 'Mikko Rantanen', email: 'jubjub@jubjubnest.net' },
+39 silly resolved     homepage: 'https://github.com/Rantanen/node-mumble',
+39 silly resolved     bugs: { url: 'https://github.com/Rantanen/node-mumble/issues' },
+39 silly resolved     license: 'MIT',
+39 silly resolved     repository:
+39 silly resolved      { type: 'git',
+39 silly resolved        url: 'http://github.com/Rantanen/node-mumble.git' },
+39 silly resolved     engines: { node: '>=0.10.0' },
+39 silly resolved     dependencies: { protobuf: '~0.8.6', celt: '~0.1.0', jitterbuffer: '~0.1.0' },
+39 silly resolved     _id: 'mumble@0.0.2',
+39 silly resolved     dist:
+39 silly resolved      { shasum: 'e417335e11bf49fa561fdd59ce940be0bfcbf270',
+39 silly resolved        tarball: 'http://registry.npmjs.org/mumble/-/mumble-0.0.2.tgz' },
+39 silly resolved     _from: 'mumble@',
+39 silly resolved     _npmVersion: '1.3.21',
+39 silly resolved     _npmUser: { name: 'rantanen', email: 'jubjub@jubjubnest.net' },
+39 silly resolved     maintainers: [ [Object] ],
+39 silly resolved     directories: {},
+39 silly resolved     _shasum: 'e417335e11bf49fa561fdd59ce940be0bfcbf270',
+39 silly resolved     _resolved: 'https://registry.npmjs.org/mumble/-/mumble-0.0.2.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install mumble@0.0.2 into c:\Users\eru\floobits\erulabs\mumblebot
+41 info installOne mumble@0.0.2
+42 info c:\Users\eru\floobits\erulabs\mumblebot\node_modules\mumble unbuild
+43 verbose tar unpack C:\Users\eru\AppData\Roaming\npm-cache\mumble\0.0.2\package.tgz
+44 silly lockFile 900a5f5e-bs-mumblebot-node-modules-mumble tar://c:\Users\eru\floobits\erulabs\mumblebot\node_modules\mumble
+45 verbose lock tar://c:\Users\eru\floobits\erulabs\mumblebot\node_modules\mumble C:\Users\eru\AppData\Roaming\npm-cache\900a5f5e-bs-mumblebot-node-modules-mumble.lock
+46 silly lockFile c9ba7499-m-cache-mumble-0-0-2-package-tgz tar://C:\Users\eru\AppData\Roaming\npm-cache\mumble\0.0.2\package.tgz
+47 verbose lock tar://C:\Users\eru\AppData\Roaming\npm-cache\mumble\0.0.2\package.tgz C:\Users\eru\AppData\Roaming\npm-cache\c9ba7499-m-cache-mumble-0-0-2-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm extractEntry .npmignore
+51 silly gunzTarPerm extractEntry README.md
+52 silly gunzTarPerm extractEntry LICENSE
+53 silly gunzTarPerm extractEntry index.js
+54 silly gunzTarPerm extractEntry .jshintrc
+55 silly gunzTarPerm extractEntry examples/basic.js
+56 silly gunzTarPerm extractEntry examples/loopback.js
+57 silly gunzTarPerm extractEntry examples/pipe.js
+58 silly gunzTarPerm extractEntry examples/sin.js
+59 silly gunzTarPerm extractEntry lib/MumbleConnection.js
+60 silly gunzTarPerm extractEntry lib/MumbleInputStream.js
+61 silly gunzTarPerm extractEntry lib/MumbleMessageMap.js
+62 silly gunzTarPerm extractEntry lib/MumbleOutputStream.js
+63 silly gunzTarPerm extractEntry lib/MumbleSocket.js
+64 silly gunzTarPerm extractEntry lib/util.js
+65 silly gunzTarPerm extractEntry lib/mumble.desc
+66 silly gunzTarPerm extractEntry lib/mumble.proto
+67 silly lockFile 900a5f5e-bs-mumblebot-node-modules-mumble tar://c:\Users\eru\floobits\erulabs\mumblebot\node_modules\mumble
+68 silly lockFile 900a5f5e-bs-mumblebot-node-modules-mumble tar://c:\Users\eru\floobits\erulabs\mumblebot\node_modules\mumble
+69 silly lockFile c9ba7499-m-cache-mumble-0-0-2-package-tgz tar://C:\Users\eru\AppData\Roaming\npm-cache\mumble\0.0.2\package.tgz
+70 silly lockFile c9ba7499-m-cache-mumble-0-0-2-package-tgz tar://C:\Users\eru\AppData\Roaming\npm-cache\mumble\0.0.2\package.tgz
+71 info preinstall mumble@0.0.2
+72 verbose readDependencies using package.json deps
+73 verbose readDependencies using package.json deps
+74 verbose cache add [ 'protobuf@~0.8.6', null ]
+75 verbose cache add name=undefined spec="protobuf@~0.8.6" args=["protobuf@~0.8.6",null]
+76 verbose parsed url { protocol: null,
+76 verbose parsed url   slashes: null,
+76 verbose parsed url   auth: null,
+76 verbose parsed url   host: null,
+76 verbose parsed url   port: null,
+76 verbose parsed url   hostname: null,
+76 verbose parsed url   hash: null,
+76 verbose parsed url   search: null,
+76 verbose parsed url   query: null,
+76 verbose parsed url   pathname: 'protobuf@~0.8.6',
+76 verbose parsed url   path: 'protobuf@~0.8.6',
+76 verbose parsed url   href: 'protobuf@~0.8.6' }
+77 verbose cache add [ 'celt@~0.1.0', null ]
+78 verbose cache add name=undefined spec="celt@~0.1.0" args=["celt@~0.1.0",null]
+79 verbose parsed url { protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: 'celt@~0.1.0',
+79 verbose parsed url   path: 'celt@~0.1.0',
+79 verbose parsed url   href: 'celt@~0.1.0' }
+80 verbose cache add [ 'jitterbuffer@~0.1.0', null ]
+81 verbose cache add name=undefined spec="jitterbuffer@~0.1.0" args=["jitterbuffer@~0.1.0",null]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: 'jitterbuffer@~0.1.0',
+82 verbose parsed url   path: 'jitterbuffer@~0.1.0',
+82 verbose parsed url   href: 'jitterbuffer@~0.1.0' }
+83 verbose cache add name="protobuf" spec="~0.8.6" args=["protobuf","~0.8.6"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '~0.8.6',
+84 verbose parsed url   path: '~0.8.6',
+84 verbose parsed url   href: '~0.8.6' }
+85 verbose addNamed [ 'protobuf', '~0.8.6' ]
+86 verbose addNamed [ null, '>=0.8.6-0 <0.9.0-0' ]
+87 silly lockFile 439fc1ca-protobuf-0-8-6 protobuf@~0.8.6
+88 verbose lock protobuf@~0.8.6 C:\Users\eru\AppData\Roaming\npm-cache\439fc1ca-protobuf-0-8-6.lock
+89 verbose cache add name="celt" spec="~0.1.0" args=["celt","~0.1.0"]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: '~0.1.0',
+90 verbose parsed url   path: '~0.1.0',
+90 verbose parsed url   href: '~0.1.0' }
+91 verbose addNamed [ 'celt', '~0.1.0' ]
+92 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+93 silly lockFile 5785e11e-celt-0-1-0 celt@~0.1.0
+94 verbose lock celt@~0.1.0 C:\Users\eru\AppData\Roaming\npm-cache\5785e11e-celt-0-1-0.lock
+95 verbose cache add name="jitterbuffer" spec="~0.1.0" args=["jitterbuffer","~0.1.0"]
+96 verbose parsed url { protocol: null,
+96 verbose parsed url   slashes: null,
+96 verbose parsed url   auth: null,
+96 verbose parsed url   host: null,
+96 verbose parsed url   port: null,
+96 verbose parsed url   hostname: null,
+96 verbose parsed url   hash: null,
+96 verbose parsed url   search: null,
+96 verbose parsed url   query: null,
+96 verbose parsed url   pathname: '~0.1.0',
+96 verbose parsed url   path: '~0.1.0',
+96 verbose parsed url   href: '~0.1.0' }
+97 verbose addNamed [ 'jitterbuffer', '~0.1.0' ]
+98 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+99 silly lockFile 6b10ec80-jitterbuffer-0-1-0 jitterbuffer@~0.1.0
+100 verbose lock jitterbuffer@~0.1.0 C:\Users\eru\AppData\Roaming\npm-cache\6b10ec80-jitterbuffer-0-1-0.lock
+101 silly addNameRange { name: 'protobuf', range: '>=0.8.6-0 <0.9.0-0', hasData: false }
+102 silly addNameRange { name: 'celt', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+103 silly addNameRange { name: 'jitterbuffer',
+103 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+103 silly addNameRange   hasData: false }
+104 verbose url raw protobuf
+105 verbose url resolving [ 'https://registry.npmjs.org/', './protobuf' ]
+106 verbose url resolved https://registry.npmjs.org/protobuf
+107 info trying registry request attempt 1 at 20:15:53
+108 verbose etag "87FYI1232CE194D377SJWKQWU"
+109 http GET https://registry.npmjs.org/protobuf
+110 verbose url raw jitterbuffer
+111 verbose url resolving [ 'https://registry.npmjs.org/', './jitterbuffer' ]
+112 verbose url resolved https://registry.npmjs.org/jitterbuffer
+113 info trying registry request attempt 1 at 20:15:53
+114 verbose etag "22NGUSETFIA8329D04JMY0VC2"
+115 http GET https://registry.npmjs.org/jitterbuffer
+116 verbose url raw celt
+117 verbose url resolving [ 'https://registry.npmjs.org/', './celt' ]
+118 verbose url resolved https://registry.npmjs.org/celt
+119 info trying registry request attempt 1 at 20:15:53
+120 verbose etag "1SHK684OFPOBSYHI53BFVKQ1S"
+121 http GET https://registry.npmjs.org/celt
+122 http 304 https://registry.npmjs.org/celt
+123 silly registry.get cb [ 304,
+123 silly registry.get   { date: 'Thu, 24 Jul 2014 01:15:53 GMT',
+123 silly registry.get     server: 'Apache',
+123 silly registry.get     via: '1.1 varnish',
+123 silly registry.get     'last-modified': 'Thu, 24 Jul 2014 01:15:53 GMT',
+123 silly registry.get     'cache-control': 'max-age=60',
+123 silly registry.get     etag: '"1SHK684OFPOBSYHI53BFVKQ1S"',
+123 silly registry.get     'x-served-by': 'cache-dfw1833-DFW',
+123 silly registry.get     'x-cache': 'HIT',
+123 silly registry.get     'x-cache-hits': '1',
+123 silly registry.get     'x-timer': 'S1406164553.431530,VS0,VE0',
+123 silly registry.get     vary: 'Accept',
+123 silly registry.get     'content-length': '0',
+123 silly registry.get     'keep-alive': 'timeout=10, max=50',
+123 silly registry.get     connection: 'Keep-Alive' } ]
+124 verbose etag celt from cache
+125 http 304 https://registry.npmjs.org/jitterbuffer
+126 silly registry.get cb [ 304,
+126 silly registry.get   { date: 'Thu, 24 Jul 2014 01:15:53 GMT',
+126 silly registry.get     server: 'Apache',
+126 silly registry.get     via: '1.1 varnish',
+126 silly registry.get     'last-modified': 'Thu, 24 Jul 2014 01:15:53 GMT',
+126 silly registry.get     'cache-control': 'max-age=60',
+126 silly registry.get     etag: '"22NGUSETFIA8329D04JMY0VC2"',
+126 silly registry.get     'x-served-by': 'cache-dfw1821-DFW',
+126 silly registry.get     'x-cache': 'HIT',
+126 silly registry.get     'x-cache-hits': '1',
+126 silly registry.get     'x-timer': 'S1406164553.429625,VS0,VE0',
+126 silly registry.get     vary: 'Accept',
+126 silly registry.get     'content-length': '0',
+126 silly registry.get     'keep-alive': 'timeout=10, max=50',
+126 silly registry.get     connection: 'Keep-Alive' } ]
+127 verbose etag jitterbuffer from cache
+128 http 304 https://registry.npmjs.org/protobuf
+129 silly registry.get cb [ 304,
+129 silly registry.get   { date: 'Thu, 24 Jul 2014 01:15:53 GMT',
+129 silly registry.get     server: 'Apache',
+129 silly registry.get     via: '1.1 varnish',
+129 silly registry.get     'last-modified': 'Thu, 24 Jul 2014 01:15:53 GMT',
+129 silly registry.get     'cache-control': 'max-age=60',
+129 silly registry.get     etag: '"87FYI1232CE194D377SJWKQWU"',
+129 silly registry.get     'x-served-by': 'cache-dfw1835-DFW',
+129 silly registry.get     'x-cache': 'HIT',
+129 silly registry.get     'x-cache-hits': '1',
+129 silly registry.get     'x-timer': 'S1406164553.427380,VS0,VE0',
+129 silly registry.get     vary: 'Accept',
+129 silly registry.get     'content-length': '0',
+129 silly registry.get     'keep-alive': 'timeout=10, max=50',
+129 silly registry.get     connection: 'Keep-Alive' } ]
+130 verbose etag protobuf from cache
+131 silly addNameRange number 2 { name: 'jitterbuffer',
+131 silly addNameRange   range: '>=0.1.0-0 <0.2.0-0',
+131 silly addNameRange   hasData: true }
+132 silly addNameRange versions [ 'jitterbuffer', [ '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+133 verbose addNamed [ 'jitterbuffer', '0.1.3' ]
+134 verbose addNamed [ '0.1.3', '0.1.3' ]
+135 silly lockFile 0188f502-jitterbuffer-0-1-3 jitterbuffer@0.1.3
+136 verbose lock jitterbuffer@0.1.3 C:\Users\eru\AppData\Roaming\npm-cache\0188f502-jitterbuffer-0-1-3.lock
+137 silly addNameRange number 2 { name: 'celt', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+138 silly addNameRange versions [ 'celt', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+139 verbose addNamed [ 'celt', '0.1.2' ]
+140 verbose addNamed [ '0.1.2', '0.1.2' ]
+141 silly lockFile 0fc7eae7-celt-0-1-2 celt@0.1.2
+142 verbose lock celt@0.1.2 C:\Users\eru\AppData\Roaming\npm-cache\0fc7eae7-celt-0-1-2.lock
+143 silly addNameRange number 2 { name: 'protobuf', range: '>=0.8.6-0 <0.9.0-0', hasData: true }
+144 silly addNameRange versions [ 'protobuf',
+144 silly addNameRange   [ '0.3.0',
+144 silly addNameRange     '0.3.1',
+144 silly addNameRange     '0.3.2',
+144 silly addNameRange     '0.8.0',
+144 silly addNameRange     '0.8.2',
+144 silly addNameRange     '0.8.4',
+144 silly addNameRange     '0.8.6',
+144 silly addNameRange     '0.8.7',
+144 silly addNameRange     '0.8.8',
+144 silly addNameRange     '0.11.0' ] ]
+145 verbose addNamed [ 'protobuf', '0.8.8' ]
+146 verbose addNamed [ '0.8.8', '0.8.8' ]
+147 silly lockFile 444add7c-protobuf-0-8-8 protobuf@0.8.8
+148 verbose lock protobuf@0.8.8 C:\Users\eru\AppData\Roaming\npm-cache\444add7c-protobuf-0-8-8.lock
+149 silly lockFile 0188f502-jitterbuffer-0-1-3 jitterbuffer@0.1.3
+150 silly lockFile 0188f502-jitterbuffer-0-1-3 jitterbuffer@0.1.3
+151 silly lockFile 6b10ec80-jitterbuffer-0-1-0 jitterbuffer@~0.1.0
+152 silly lockFile 6b10ec80-jitterbuffer-0-1-0 jitterbuffer@~0.1.0
+153 silly lockFile 0fc7eae7-celt-0-1-2 celt@0.1.2
+154 silly lockFile 0fc7eae7-celt-0-1-2 celt@0.1.2
+155 silly lockFile 5785e11e-celt-0-1-0 celt@~0.1.0
+156 silly lockFile 5785e11e-celt-0-1-0 celt@~0.1.0
+157 silly lockFile 444add7c-protobuf-0-8-8 protobuf@0.8.8
+158 silly lockFile 444add7c-protobuf-0-8-8 protobuf@0.8.8
+159 silly lockFile 439fc1ca-protobuf-0-8-6 protobuf@~0.8.6
+160 silly lockFile 439fc1ca-protobuf-0-8-6 protobuf@~0.8.6
+161 silly resolved [ { name: 'jitterbuffer',
+161 silly resolved     description: 'NodeJS binding to Speex Jitter Buffer',
+161 silly resolved     version: '0.1.3',
+161 silly resolved     author: { name: 'Mikko Rantanen', email: 'jubjub@jubjubnest.net' },
+161 silly resolved     homepage: 'https://github.com/Rantanen/node-jitterbuffer',
+161 silly resolved     bugs: { url: 'https://github.com/Rantanen/node-jitterbuffer/issues' },
+161 silly resolved     license: 'MIT',
+161 silly resolved     repository:
+161 silly resolved      { type: 'git',
+161 silly resolved        url: 'http://github.com/Rantanen/node-jitterbuffer.git' },
+161 silly resolved     '//': 'Platform limitations is due to lack of config.h files. See README.md for more information.',
+161 silly resolved     os: [ 'linux' ],
+161 silly resolved     cpu: [ 'x64' ],
+161 silly resolved     engines: { node: '>=0.10.0' },
+161 silly resolved     dependencies: { bindings: '~1.1.0' },
+161 silly resolved     scripts: { install: 'node-gyp rebuild' },
+161 silly resolved     gypfile: true,
+161 silly resolved     _id: 'jitterbuffer@0.1.3',
+161 silly resolved     dist:
+161 silly resolved      { shasum: 'bea7ccd027639fa119a6009df41c4bea70fc8eed',
+161 silly resolved        tarball: 'http://registry.npmjs.org/jitterbuffer/-/jitterbuffer-0.1.3.tgz' },
+161 silly resolved     _from: 'jitterbuffer@~0.1.0',
+161 silly resolved     _npmVersion: '1.3.21',
+161 silly resolved     _npmUser: { name: 'rantanen', email: 'jubjub@jubjubnest.net' },
+161 silly resolved     maintainers: [ [Object] ],
+161 silly resolved     directories: {},
+161 silly resolved     _shasum: 'bea7ccd027639fa119a6009df41c4bea70fc8eed',
+161 silly resolved     _resolved: 'https://registry.npmjs.org/jitterbuffer/-/jitterbuffer-0.1.3.tgz',
+161 silly resolved     readme: 'ERROR: No README data found!' },
+161 silly resolved   { name: 'celt',
+161 silly resolved     description: 'NodeJS native binding to CELT',
+161 silly resolved     version: '0.1.2',
+161 silly resolved     author: { name: 'Mikko Rantanen', email: 'jubjub@jubjubnest.net' },
+161 silly resolved     homepage: 'https://github.com/Rantanen/node-celt',
+161 silly resolved     bugs: { url: 'https://github.com/Rantanen/node-celt/issues' },
+161 silly resolved     license: 'MIT',
+161 silly resolved     repository: { type: 'git', url: 'http://github.com/Rantanen/node-celt.git' },
+161 silly resolved     '//': 'Platform limitations is due to lack of config.h files. See README.md for more information.',
+161 silly resolved     os: [ 'linux' ],
+161 silly resolved     cpu: [ 'x64' ],
+161 silly resolved     engines: { node: '>=0.10.0' },
+161 silly resolved     dependencies: { bindings: '~1.1.0' },
+161 silly resolved     scripts: { install: 'node-gyp rebuild' },
+161 silly resolved     gypfile: true,
+161 silly resolved     readme: 'node-celt\n=========\n### NodeJS native bindings to libcelt\n\nThis module implements bindings for Celt v0.7.0 for Node.js.\n\n    celt = require(\'node-celt\');\n\n    // Create the encoder.\n    // Specify 48kHz sampling rate and 10ms frame size.\n    // NOTE: The decoder must use the same values when decoding the packets.\n    var rate = 48000;\n    var frame_size = rate/100;\n    var encoder = new celt.CeltEncoder( rate );\n\n    // Encode and decode.\n    var encoded = encoder.encode( buffer );\n    var decoded = encoder.decode( encoded );\n\nPlatform support\n----------------\n\nSupported platforms:\n- Linux x64\n\nAdd new supported platforms by running ./configure in deps/celt-0.7.1 and\ncopying the resulting config.h to deps/config/celt-0.7.1/<os>/<arch>.\n\nUse the following flags: --enable-static --disable-shared --with-pic\n\n',
+161 silly resolved     readmeFilename: 'README.md',
+161 silly resolved     _id: 'celt@0.1.2',
+161 silly resolved     dist:
+161 silly resolved      { shasum: '1e711b04c3b7e11b5e2a709220b7f62fd56bf4b6',
+161 silly resolved        tarball: 'http://registry.npmjs.org/celt/-/celt-0.1.2.tgz' },
+161 silly resolved     _from: 'celt@~0.1.0',
+161 silly resolved     _npmVersion: '1.2.18',
+161 silly resolved     _npmUser: { name: 'rantanen', email: 'jubjub@jubjubnest.net' },
+161 silly resolved     maintainers: [ [Object] ],
+161 silly resolved     directories: {},
+161 silly resolved     _shasum: '1e711b04c3b7e11b5e2a709220b7f62fd56bf4b6',
+161 silly resolved     _resolved: 'https://registry.npmjs.org/celt/-/celt-0.1.2.tgz' },
+161 silly resolved   { name: 'protobuf',
+161 silly resolved     version: '0.8.8',
+161 silly resolved     description: 'Protocol Buffers for NodeJS',
+161 silly resolved     author: '',
+161 silly resolved     main: './build/Release/protobuf_for_node',
+161 silly resolved     engines: { node: '>= 0.8.0 < 0.11.0' },
+161 silly resolved     repository: { type: 'git', url: 'git://github.com/chrisdew/protobuf.git' },
+161 silly resolved     scripts: { test: 'node test/unittest.js', install: 'node-gyp rebuild' },
+161 silly resolved     gypfile: true,
+161 silly resolved     bugs: { url: 'https://github.com/chrisdew/protobuf/issues' },
+161 silly resolved     homepage: 'https://github.com/chrisdew/protobuf',
+161 silly resolved     _id: 'protobuf@0.8.8',
+161 silly resolved     dist:
+161 silly resolved      { shasum: '7f7447e915506ce4ca135a91b78931f4baa4b1d7',
+161 silly resolved        tarball: 'http://registry.npmjs.org/protobuf/-/protobuf-0.8.8.tgz' },
+161 silly resolved     _from: 'protobuf@~0.8.6',
+161 silly resolved     _npmVersion: '1.3.24',
+161 silly resolved     _npmUser: { name: 'chrisdew', email: 'cmsdew@gmail.com' },
+161 silly resolved     maintainers: [ [Object] ],
+161 silly resolved     directories: {},
+161 silly resolved     _shasum: '7f7447e915506ce4ca135a91b78931f4baa4b1d7',
+161 silly resolved     _resolved: 'https://registry.npmjs.org/protobuf/-/protobuf-0.8.8.tgz',
+161 silly resolved     readme: 'ERROR: No README data found!' } ]
+162 info install jitterbuffer@0.1.3 into c:\Users\eru\floobits\erulabs\mumblebot\node_modules\mumble
+163 info install celt@0.1.2 into c:\Users\eru\floobits\erulabs\mumblebot\node_modules\mumble
+164 info install protobuf@0.8.8 into c:\Users\eru\floobits\erulabs\mumblebot\node_modules\mumble
+165 info installOne jitterbuffer@0.1.3
+166 verbose about to build c:\Users\eru\floobits\erulabs\mumblebot\node_modules\mumble
+167 info c:\Users\eru\floobits\erulabs\mumblebot\node_modules\mumble unbuild
+168 info installOne celt@0.1.2
+169 info installOne protobuf@0.8.8
+170 info preuninstall mumble@0.0.2
+171 info c:\Users\eru\floobits\erulabs\mumblebot\node_modules\mumble\node_modules\protobuf unbuild
+172 info uninstall mumble@0.0.2
+173 verbose tar unpack C:\Users\eru\AppData\Roaming\npm-cache\protobuf\0.8.8\package.tgz
+174 silly lockFile 3fa54aae-les-mumble-node-modules-protobuf tar://c:\Users\eru\floobits\erulabs\mumblebot\node_modules\mumble\node_modules\protobuf
+175 verbose lock tar://c:\Users\eru\floobits\erulabs\mumblebot\node_modules\mumble\node_modules\protobuf C:\Users\eru\AppData\Roaming\npm-cache\3fa54aae-les-mumble-node-modules-protobuf.lock
+176 silly lockFile f8d03386-cache-protobuf-0-8-8-package-tgz tar://C:\Users\eru\AppData\Roaming\npm-cache\protobuf\0.8.8\package.tgz
+177 verbose lock tar://C:\Users\eru\AppData\Roaming\npm-cache\protobuf\0.8.8\package.tgz C:\Users\eru\AppData\Roaming\npm-cache\f8d03386-cache-protobuf-0-8-8-package-tgz.lock
+178 verbose true,c:\Users\eru\floobits\erulabs\mumblebot\node_modules,c:\Users\eru\floobits\erulabs\mumblebot\node_modules unbuild mumble@0.0.2
+179 info postuninstall mumble@0.0.2
+180 silly gunzTarPerm modes [ '755', '644' ]
+181 error notsup Unsupported
+181 error notsup Not compatible with your operating system or architecture: jitterbuffer@0.1.3
+181 error notsup Valid OS:    linux
+181 error notsup Valid Arch:  x64
+181 error notsup Actual OS:   win32
+181 error notsup Actual Arch: ia32
+182 error System Windows_NT 6.2.9200
+183 error command "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mumble" "--save"
+184 error cwd c:\Users\eru\floobits\erulabs\mumblebot
+185 error node -v v0.10.29
+186 error npm -v 1.4.14
+187 error code EBADPLATFORM
+188 verbose exit [ 1, true ]
